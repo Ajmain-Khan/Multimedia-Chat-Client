@@ -3,9 +3,22 @@
 ** Introduction
 A chat and image sharing client implemented using python (server backend) and Java (client frontend - JavaFX)
 
+-----
+*** Client Menu
+#+html: <p align="center"><img src="https://github.com/Ajmain-Khan/Multimedia-Chat-Client/blob/master/resources/demo/chatMenu.png" /></p>
+# [[file:https://github.com/Ajmain-Khan/Multimedia-Chat-Client/blob/master/resources/demo/chatMenu.png]]
+-----
+*** Chat Room
+#+html: <p align="center"><img src="https://github.com/Ajmain-Khan/Multimedia-Chat-Client/blob/master/resources/demo/textChat.png" /></p>
+-----
+*** Image Sharing Interface
+#+html: <p align="center"><img src="https://github.com/Ajmain-Khan/Multimedia-Chat-Client/blob/master/resources/demo/pyImageDemo.gif" /></p>
+-----
 ** Steps to Run
 
 1. Run the command =docker-compose run= or:
+
     1.1 =python3.9 -m pip install click=
+    
     1.2 =python3.9 server= in the cloned repository
 2. That's it! Connect to the server on port =2021=
