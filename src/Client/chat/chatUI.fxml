@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<AnchorPane fx:controller="client.chat.ClientController" xmlns:fx="http://javafx.com/fxml" prefWidth="900" prefHeight="600">
+    <BorderPane AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.bottomAnchor="0" AnchorPane.topAnchor="0">
+        <top>
+
+        </top>
+        <center>
+            <ScrollPane hbarPolicy="NEVER" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.bottomAnchor="20" AnchorPane.topAnchor="20">
+                <TextArea prefHeight="Infinity" fx:id="textArea" editable="false"/>
+            </ScrollPane>
+        </center>
+        <bottom>
+            <HBox alignment="center">
+                <TextField fx:id="messageReader" promptText="Enter Message" prefWidth="268"/>
+                <Button fx:id="sendButton" text="Send" onAction="#messageSent"/>
+                <Button fx:id="menuButton" text="Back to Menu" onAction="#menuAction"/>
+            </HBox>
+        </bottom>
+    </BorderPane>
+</AnchorPane>

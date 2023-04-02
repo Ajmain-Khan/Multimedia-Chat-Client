@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<GridPane fx:controller="client.image.imageController"
+          xmlns:fx="http://javafx.com/fxml" prefWidth="400" prefHeight="400" gridLinesVisible="false">
+    <VBox>
+        <ScrollPane prefHeight="375" prefWidth="400" hbarPolicy="NEVER" vbarPolicy="ALWAYS">
+            <Canvas fx:id="canvas" width="375" height="10000"></Canvas>
+        </ScrollPane>
+        <HBox alignment="center">
+            <TextField fx:id="imageReader" prefWidth="184" editable="false"></TextField>
+            <Button fx:id="imageButton" text="Select Image" onAction="#imageSelect"></Button>
+            <Button fx:id="sendButton" text="Send" onAction="#imageSent"></Button>
+            <Button fx:id="menuButton" text="Back to Menu" onAction="#menuAction"></Button>
+        </HBox>
+    </VBox>
+
+</GridPane>

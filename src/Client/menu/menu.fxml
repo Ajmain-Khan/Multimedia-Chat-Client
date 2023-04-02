@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="client.menu.MenuController" prefWidth="900" prefHeight="600">
+    <VBox AnchorPane.leftAnchor="100" AnchorPane.rightAnchor="100" AnchorPane.bottomAnchor="0" AnchorPane.topAnchor="0" alignment="CENTER">
+        <Label text="Hi there! To start chatting please enter a username"/>
+        <Label text="Username"/>
+        <TextField fx:id="userName" prefWidth="300"/>
+        <Button text="Continue" onAction="#handleChatAction" prefWidth="200"/>
+        <Button text="Enter Image Sharing Server" onAction="#handleImageAction" prefWidth="200"/>
+        <Button text="Exit" onAction="#exitAction" prefWidth="200"/>
+    </VBox>
+    <stylesheets>
+        <URL value="@menuStyling.css"/>
+    </stylesheets>
+</AnchorPane>
+
