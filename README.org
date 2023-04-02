@@ -14,7 +14,7 @@ A chat and image sharing client implemented using python (server backend) and Ja
 *** Image Sharing Interface
 #+html: <p align="center"><img src="https://github.com/Ajmain-Khan/Multimedia-Chat-Client/blob/master/resources/demo/pyImageDemo.gif" /></p>
 -----
-** Steps to Run
+** Execution Steps
 
 1. Run the command =docker-compose run= or:
 
