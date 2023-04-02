@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "csci2020u-backend"
+version = "1.0.0.0"
+description = "The backend for the csci2020u final assignment project"
+authors = [ "Jeet Ray <jeet.ray@ontariotechu.ca>" ]
+license = "GPL-3.0"
+include = [ "server/**/*.py" ]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+addict = "*"
+autoslot = "*"
+pout = "*"
+nanite = {git = "https://gitlab.com/picotech/nanotech/nanite.git", branch = "master"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
