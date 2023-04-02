@@ -1,7 +1,7 @@
 * Client Server MultiMedia Chat Application
 
 ** Introduction
-A chat and image sharing client implemented using python (server backend) and Java (client frontend - JavaFX)
+A chat and image sharing client implemented using python (server backend) and Java (client frontend - JavaFX). Implements concepts such as sockets and multithreading.
 
 -----
 *** Client Menu
